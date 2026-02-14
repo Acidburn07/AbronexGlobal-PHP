@@ -5,7 +5,7 @@
 
       <!-- Logo -->
       <img
-        src="Logo/Abronex_Global_Logo.png"
+        src="assets/images/Abronex_Global Logo.png"
         alt="Abronex Global"
         class="h-10 w-auto"
       />
