@@ -11,9 +11,10 @@
         <a href="#services" class="hover:text-brand transition font-medium">Services</a>
         <a href="#about" class="hover:text-brand transition font-medium">About</a>
         <a href="#contact" class="hover:text-brand transition font-medium">Contact</a>
+      
       </nav>
 
-      <a href="#contact" class="hidden md:inline-flex items-center justify-center px-6 py-2.5 bg-brand text-white rounded-xl shadow hover:scale-105 transition font-medium">
+      <a href="application.php" class="hidden md:inline-flex items-center justify-center px-6 py-2.5 bg-brand text-white rounded-xl shadow hover:scale-105 transition font-medium">
         Free Consultation
       </a>
 
