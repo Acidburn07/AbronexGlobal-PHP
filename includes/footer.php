@@ -1,9 +1,10 @@
-<footer class="fixed bottom-0 left-0 w-full z-50 bg-white/80 backdrop-blur border-b border-gray-200"></footer>
-<div class="w-full py-20 bg-white flex items-center justify-center">
-  <p class="text-center text-lg md:text-xl font-secondary text-gray-500">
-    Hello More Yet to Come — See You in Next Module!
-  </p>
-</div>
+<footer class="w-full py-12 bg-white border-t border-gray-200 mt-auto">
+      <div class="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col items-center justify-center">
+        <p class="text-center text-lg md:text-xl font-secondary text-gray-500">
+          Empowering students worldwide to achieve their educational dreams through expert guidance and personalized support.
+        </p>
+      </div>
+    </footer>
 
-</body>
+    </body>
 </html>

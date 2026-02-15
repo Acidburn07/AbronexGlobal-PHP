@@ -1,25 +1,9 @@
-<?php
-$title = "Application Form";
-?>
-
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-    tailwind.config = {
-        theme: {
-            extend: {
-                colors: {
-                    brand: '#00C4B4',
-                    brandDark: '#00a89a',
-                }
-            }
-        }
-    }
-</script>
+<div class="min-h-full bg bg-brand width-full"></div>
+   <h2 class="text-3xl font-bold text-center text-white-500 mb-6 font-secondary">Do you want us to Help!</h2>
 
 <div class="min-h-screen bg-brand py-12 px-4 sm:px-6 lg:px-8 flex items-center justify-center">
     <div class="max-w-md w-full mx-auto bg-white rounded-xl shadow-2xl overflow-hidden p-8 border border-gray-100">
-        
-        <h2 class="text-2xl font-bold text-center text-gray-800 mb-8"><?php echo $title; ?></h2>
+        <h2 class="text-3xl font-bold text-center text-gray-800 mb-6 font-primary">Free Consultation Application</h2>   
 
         <form method="post" class="space-y-6">
             
@@ -39,7 +23,7 @@ $title = "Application Form";
                     class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand focus:border-brand outline-none transition-all">
             </div>
 
-            <div class="grid grid-cols-2 gap-4">
+            <div class="grid grid-cols-2 gap-4 bg">
                 <div>
                     <label class="block text-sm font-semibold text-gray-700 mb-1">Age:*</label>
                     <input type="number" name="age" required 
