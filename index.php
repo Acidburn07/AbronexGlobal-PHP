@@ -27,8 +27,9 @@ include 'includes/navbar.php';
             <a href="#services" class="px-8 py-4 bg-brand text-white rounded-xl shadow hover:scale-105 transition">
               Explore Services
             </a>
-            <a href="#contact" class="px-8 py-4 border border-brand text-brand rounded-xl hover:bg-brand hover:text-white transition">
-              Free Consultation
+            <a href="gettingstarted.php" target="_blank"
+            class="px-8 py-4 border border-brand text-brand rounded-xl hover:bg-brand hover:text-white transition">
+              Get Start With Us
             </a>
           </div>
         </div>
