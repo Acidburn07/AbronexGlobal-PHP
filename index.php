@@ -62,10 +62,10 @@ include 'includes/navbar.php';
             <h3 class="text-2xl font-bold text-brandDark mb-2">College Admissions</h3>
             <p class="text-gray-600 font-secondary">Expert guidance through the entire college application process, from school selection to acceptance</p>
              <div class="tag flex flex-wrap gap-2">
-                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">School Selection</span>
-                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Application Strategy</span>
-                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Essay Editing</span>
-                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Interview Prep</span>
+                <span class="px-3 py-1 bg-gray text-black opacity-70 rounded-xl shadow hover:scale-105 transition">School Selection</span>
+                <span class="px-3 py-1 bg-gray text-black opacity-70 rounded-xl shadow hover:scale-105 transition">Application Strategy</span>
+                <span class="px-3 py-1 bg-gray text-black opacity-70 rounded-xl shadow hover:scale-105 transition">Essay Editing</span>
+                <span class="px-3 py-1 bg-gray text-black opacity-70 rounded-xl shadow hover:scale-105 transition">Interview Preparation</span>
             </div>
           </div>
           <div class="service-card p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
