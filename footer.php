@@ -6,7 +6,7 @@
           
           <div>
             <img src="assets/Abronex_Global_Logo.png" alt="Abronex Global Logo" class="brightness-0 invert w-auto h-10 mb-4">
-            <p class="text-gray-300 leading-relaxed text-justify">
+            <p class="text-gray-300 leading-relaxed text-justify text-sm">
               Empowering students worldwide to achieve their educational dreams 
               through expert guidance and personalized support.
             </p>
@@ -33,7 +33,7 @@
           <div>
             <h4 class="text-lg font-secondary mb-4">Quick Links</h4>
             
-            <ul class="text-gray-300 space-y-2 text-balance">
+            <ul class="text-gray-300 space-y-2 text-balance text-sm">
               <li><a href="#" class="hover:text-white transition">Services</a></li>
               <li><a href="#" class="hover:text-white transition">About</a></li>
               <li><a href="#" class="hover:text-white transition">Testimonials </a></li>
@@ -44,13 +44,14 @@
           <div>
             <h4 class="text-lg font-secondary mb-4">Our Services</h4>
 
-            <ul class="text-gray-300 space-y-2 text-balance">
+            <ul class="text-gray-300 space-y-2 text-balance text-sm">
               <li><a href="#" class="hover:text-white transition">College Admission</a></li>
               <li><a href="#" class="hover:text-white transition">Test Preparation</a></li>
               <li><a href="#" class="hover:text-white transition">Career Counseling</a></li>
               <li><a href="#" class="hover:text-white transition">Essay Writing</a></li>
               <li><a href="#" class="hover:text-white transition">Mentorship Program</a></li>
-            </div>
+             </ul>
+             </div>
 
           <div>
             <h4 class="text-lg font-secondary mb-4">Get in Touch</h4>
@@ -62,7 +63,7 @@
                   <i class="fa-solid fa-envelope text-xl"></i>
                 </div>
                 <div>
-                  <p class="text-white font-small mb-1 opacity-50">Email</p>
+                  <p class="text-white text-sm mb-1 opacity-50">Email</p>
                   <a href="mailto:info@abronexglobal.com" class="text-sm text-gray-300 hover:text-white transition block">
                     info@abronexglobal.com
                   </a>
@@ -74,7 +75,7 @@
                   <i class="fa-solid fa-phone text-xl"></i>
                 </div>
                 <div>
-                  <p class="text-white font-small mb-1 opacity-50">Phone</p>
+                  <p class="text-white text-sm mb-1 opacity-50">Phone</p>
                   <a href="tel:+3584495040544" class="text-sm text-gray-300 hover:text-white transition block">
                     +358-4495040544
                   </a>
@@ -86,7 +87,7 @@
                   <i class="fa-solid fa-location-dot text-xl"></i>
                 </div>
                 <div>
-                  <p class="text-white font-small mb-1 opacity-50">Office</p>
+                  <p class="text-white text-sm mb-1 opacity-50">Address</p>
                   <p class="text-sm text-gray-300 leading-relaxed">
                     25D Visamaki<br>
                     Hämeenlinna, Fi 13100
@@ -102,13 +103,13 @@
 
         </div>
 
-        <div class="border-t border-blue-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-300">
+        <div class="border-t border-blue-800 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-300 ">
           
           <p class="mb-4 md:mb-0">
             &copy; <?php echo date('Y'); ?> Abronex Global. All rights reserved.
           </p>
 
-          <div class="flex flex-wrap justify-center gap-6">
+          <div class="flex flex-wrap justify-center gap-6 text-sm">
             <a href="xx" class="hover:text-white transition">Privacy Policy</a>
             <a href="xx" class="hover:text-white transition">Terms of Services</a>
             <a href="xx" class="hover:text-white transition">Cookie Policy</a>
