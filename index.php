@@ -61,7 +61,7 @@ include 'includes/navbar.php';
           <div class="service-card md:col-span-2 p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
             <h3 class="text-2xl font-bold text-brandDark mb-2">College Admissions</h3>
             <p class="text-gray-600 font-secondary">Expert guidance through the entire college application process, from school selection to acceptance</p>
-             <div class="tag">
+             <div class="tag flex flex-wrap gap-2">
                 <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">School Selection</span>
                 <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Application Strategy</span>
                 <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Essay Editing</span>
@@ -71,7 +71,7 @@ include 'includes/navbar.php';
           <div class="service-card p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
             <h3 class="text-2xl font-bold text-brandDark mb-2">Test Preparation</h3>
             <p class="text-gray-600 font-secondary">SAT, ACT, GRE, GMAT & more.</p>
-            <div class="tags">
+            <div class="tags flex flex-wrap gap-2">
                 <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Personalized plans</span>
                 <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Practice Tests</span>
                 <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Score Analysis</span>
@@ -80,7 +80,7 @@ include 'includes/navbar.php';
           <div class="service-card p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
             <h3 class="text-2xl font-bold text-brandDark mb-2">Career Counseling</h3>
             <p class="text-gray-600 font-secondary">Navigate your carrer path with professional guidance and industry insights.</p>
-            <div class="tags">
+            <div class="tags flex flex-wrap gap-2">
                 <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Carrer Assessment </span>
                 <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Resume Building</span>
                 <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Interview Skills</span>
@@ -89,16 +89,16 @@ include 'includes/navbar.php';
           <div class="service-card p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
             <h3 class="text-2xl font-bold text-brandDark mb-2">Goal Planning</h3>
             <p class="text-gray-600 font-secondary">Set and achieve your academic and professional goals with structured planning.</p>
-            <div class="tags">
+            <div class="tags flex flex-wrap gap-2">
                 <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Milestone tracking</span>
                 <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Progress Reports</span>
-                <span class=>Strategy Sessions</span>
+                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Strategy Sessions</span>
             </div>
           </div>
           <div class="service-card p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
             <h3 class="text-2xl font-bold text-brandDark mb-2">Essay Writing</h3>
             <p class="text-gray-600 font-secondary">Craft compelling personal statements and essays that stands out of admissions officers.</p>
-             <div class="tags">
+             <div class="tags flex flex-wrap gap-2">
                 <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">personal Statements</span>
                 <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Supplement Essays</span>
                 <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Unlimited Revisions</span>
@@ -107,7 +107,7 @@ include 'includes/navbar.php';
           <div class="service-card md:col-span-2 p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
             <h3 class="text-2xl font-bold text-brandDark mb-2">Mentorship Program</h3>
             <p class="text-gray-600 font-secondary">One-on-one mentorship with experienced professionals and alumni from top universities.</p>
-            <div class="tags">
+            <div class="tags flex flex-wrap gap-2">
                 <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Weekly Sessions</span>
                 <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Expert mentors</span>
                 <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Peer Networks</span>
