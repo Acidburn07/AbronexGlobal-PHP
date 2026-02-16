@@ -19,7 +19,7 @@ include 'includes/navbar.php';
             Made <span class="text-brand">Simple</span>
           </h1>
 
-          <p class="text-xl text-gray-600 mb-8 font-secondary max-w-xl">
+          <p class="text-xl text-gray-600 mb-8 font-secondary text-justify">
             A one-stop solution for all your educational needs from English language test preparation to visa applications, we have got you covered. With our expert guidance and personalized approach, we make your study abroad journey seamless and successful.
           </p>
 
@@ -35,7 +35,7 @@ include 'includes/navbar.php';
 
         <div class="flex justify-center lg:justify-end">
           <div class="hero-image-wrapper">
-            <img src="assets/images/Abronex_Global_Logo.png" alt="Study Abroad Destination" class="hero-image" />
+            <img src="assets/images/Australia Opera House.jpg" alt="Study Abroad Destination" class="hero-image" />
           </div>
         </div>
 
@@ -86,50 +86,6 @@ include 'includes/navbar.php';
 
       </div>
     </section>
-
-    <!-- Adding Status Section -->
-<section class="py-20 bg-gradient-to-r from-blue-900 via-blue-800 to-blue-900 text-center">
-  <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
-
-    <!-- Students Guided -->
-    <div>
-      <div class="w-14 h-14 mx-auto mb-4 flex items-center justify-center rounded-xl bg-white/10 text-teal-400 text-2xl">
-        <i class="fa fa-user"></i>
-      </div>
-      <h3 class="text-4xl font-bold text-white">5000+</h3>
-      <p class="text-blue-200 mt-2">Students Guided</p>
-    </div>
-
-    <!-- Success Rate -->
-    <div>
-      <div class="w-14 h-14 mx-auto mb-4 flex items-center justify-center rounded-xl bg-white/10 text-teal-400 text-2xl">
-        <i class="fa fa-check-circle"></i>
-      </div>
-      <h3 class="text-4xl font-bold text-white">98%</h3>
-      <p class="text-blue-200 mt-2">Success Rate</p>
-    </div>
-
-    <!-- Country Reach -->
-    <div>
-      <div class="w-14 h-14 mx-auto mb-4 flex items-center justify-center rounded-xl bg-white/10 text-teal-400 text-2xl">
-        <i class="fa fa-globe"></i>
-      </div>
-      <h3 class="text-4xl font-bold text-white">45%</h3>
-      <p class="text-blue-200 mt-2">Country Reach</p>
-    </div>
-
-    <!-- Years Experience -->
-    <div>
-      <div class="w-14 h-14 mx-auto mb-4 flex items-center justify-center rounded-xl bg-white/10 text-teal-400 text-2xl">
-        <i class="fa fa-chart-line"></i>
-      </div>
-      <h3 class="text-4xl font-bold text-white">15+</h3>
-      <p class="text-blue-200 mt-2">Years Experience</p>
-    </div>
-
-  </div>
-</section>
-
 
 </main>
 
