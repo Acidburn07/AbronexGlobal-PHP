@@ -57,10 +57,9 @@ include 'includes/header.php';
         class="w-semi mt-2 p-3 border border-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
          <option>Select an option</option>
          <option>Undergraduate</option>
+         <option> Bachelor</option>
           <option>Post Graduate</option>
           <option>Masters</option>
-          <option>Test Preparation</option>
-          <option>Career Counseling</option>
         </select>
       </div>
 
@@ -86,6 +85,17 @@ include 'includes/header.php';
           <option>Under $10,000</option>
           <option>$10,000 - $25,000</option>
           <option>Above $25,000</option>
+        </select>
+      </div>
+
+      <!-- Notify Via -->
+      <div>
+        <label class="block font-semibold text-blue-500">Notify Via:</label>
+        <select name="Notify_via" required
+        class="w-semi mt-2 p-3 border border-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+         <option>Select an option</option>
+         <option>Email</option>
+          <option>Phone</option>
         </select>
       </div>
 
