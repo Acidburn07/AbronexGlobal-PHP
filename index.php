@@ -60,27 +60,58 @@ include 'includes/navbar.php';
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div class="service-card md:col-span-2 p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
             <h3 class="text-2xl font-bold text-brandDark mb-2">College Admissions</h3>
-            <p class="text-gray-600 font-secondary">From selection to acceptance.</p>
+            <p class="text-gray-600 font-secondary">Expert guidance through the entire college application process, from school selection to acceptance</p>
+             <div class="tag">
+                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">School Selection</span>
+                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Application Strategy</span>
+                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Essay Editing</span>
+                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Interview Prep</span>
+            </div>
           </div>
           <div class="service-card p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
             <h3 class="text-2xl font-bold text-brandDark mb-2">Test Preparation</h3>
             <p class="text-gray-600 font-secondary">SAT, ACT, GRE, GMAT & more.</p>
+            <div class="tags">
+                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Personalized plans</span>
+                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Practice Tests</span>
+                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Score Analysis</span>
+            </div>
           </div>
           <div class="service-card p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
             <h3 class="text-2xl font-bold text-brandDark mb-2">Career Counseling</h3>
-            <p class="text-gray-600 font-secondary">Professional career guidance.</p>
+            <p class="text-gray-600 font-secondary">Navigate your carrer path with professional guidance and industry insights.</p>
+            <div class="tags">
+                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Carrer Assessment </span>
+                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Resume Building</span>
+                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Interview Skills</span>
+            </div>
           </div>
           <div class="service-card p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
             <h3 class="text-2xl font-bold text-brandDark mb-2">Goal Planning</h3>
-            <p class="text-gray-600 font-secondary">Structured success roadmap.</p>
+            <p class="text-gray-600 font-secondary">Set and achieve your academic and professional goals with structured planning.</p>
+            <div class="tags">
+                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Milestone tracking</span>
+                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Progress Reports</span>
+                <span class=>Strategy Sessions</span>
+            </div>
           </div>
           <div class="service-card p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
             <h3 class="text-2xl font-bold text-brandDark mb-2">Essay Writing</h3>
-            <p class="text-gray-600 font-secondary">Stand-out personal statements.</p>
+            <p class="text-gray-600 font-secondary">Craft compelling personal statements and essays that stands out of admissions officers.</p>
+             <div class="tags">
+                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">personal Statements</span>
+                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Supplement Essays</span>
+                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Unlimited Revisions</span>
+            </div>
           </div>
           <div class="service-card md:col-span-2 p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
             <h3 class="text-2xl font-bold text-brandDark mb-2">Mentorship Program</h3>
-            <p class="text-gray-600 font-secondary">1-on-1 guidance from experts.</p>
+            <p class="text-gray-600 font-secondary">One-on-one mentorship with experienced professionals and alumni from top universities.</p>
+            <div class="tags">
+                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Weekly Sessions</span>
+                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Expert mentors</span>
+                <span class="px-3 py-1 bg-brand text-white rounded-xl shadow hover:scale-105 transition">Peer Networks</span>
+            </div>
           </div>
         </div>
 
