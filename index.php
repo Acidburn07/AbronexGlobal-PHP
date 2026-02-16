@@ -87,6 +87,50 @@ include 'includes/navbar.php';
       </div>
     </section>
 
+    <!-- Adding Status Section -->
+<section class="py-20 bg-gradient-to-r from-blue-900 via-blue-800 to-blue-900 text-center">
+  <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+
+    <!-- Students Guided -->
+    <div>
+      <div class="w-14 h-14 mx-auto mb-4 flex items-center justify-center rounded-xl bg-white/10 text-teal-400 text-2xl">
+        <i class="fa fa-user"></i>
+      </div>
+      <h3 class="text-4xl font-bold text-white">5000+</h3>
+      <p class="text-blue-200 mt-2">Students Guided</p>
+    </div>
+
+    <!-- Success Rate -->
+    <div>
+      <div class="w-14 h-14 mx-auto mb-4 flex items-center justify-center rounded-xl bg-white/10 text-teal-400 text-2xl">
+        <i class="fa fa-check-circle"></i>
+      </div>
+      <h3 class="text-4xl font-bold text-white">98%</h3>
+      <p class="text-blue-200 mt-2">Success Rate</p>
+    </div>
+
+    <!-- Country Reach -->
+    <div>
+      <div class="w-14 h-14 mx-auto mb-4 flex items-center justify-center rounded-xl bg-white/10 text-teal-400 text-2xl">
+        <i class="fa fa-globe"></i>
+      </div>
+      <h3 class="text-4xl font-bold text-white">45%</h3>
+      <p class="text-blue-200 mt-2">Country Reach</p>
+    </div>
+
+    <!-- Years Experience -->
+    <div>
+      <div class="w-14 h-14 mx-auto mb-4 flex items-center justify-center rounded-xl bg-white/10 text-teal-400 text-2xl">
+        <i class="fa fa-chart-line"></i>
+      </div>
+      <h3 class="text-4xl font-bold text-white">15+</h3>
+      <p class="text-blue-200 mt-2">Years Experience</p>
+    </div>
+
+  </div>
+</section>
+
+
 </main>
 
 <?php
