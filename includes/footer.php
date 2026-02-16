@@ -1,10 +1,18 @@
-<footer class="w-full py-12 bg-white border-t border-gray-200 mt-auto">
-      <div class="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col items-center justify-center">
-        <p class="text-center text-lg md:text-xl font-secondary text-gray-500">
-          Empowering students worldwide to achieve their educational dreams through expert guidance and personalized support.
-        </p>
-      </div>
-    </footer>
+<footer>
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12"></div>
 
-    </body>
-</html>
+
+
+
+  <div>
+    <div>
+      <div> Quick Link </div>
+      <div> Our Services </div>
+      <div> Get in touch </div>
+      <div> <img src="assets/images/Abronex Global Logo.png" alt="Abronex Global Logo" class="w-32 h-16 object-contain" /> </div>
+    </div>
+
+    <div class="text-left text-sm text-white-500 py-4 font-secondary"> © 2026 AbronexGlobal. All rights reserved. </div>
+    <div class="text-right text-sm text-white-500 py-4 font-secondary"> Privacy Policy </div>
+  
+</footer>
