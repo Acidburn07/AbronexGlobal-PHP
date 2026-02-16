@@ -3,29 +3,17 @@ $title = "Application Form";
 ?>
 
 <script src="https://cdn.tailwindcss.com"></script>
-<script>
-    tailwind.config = {
-        theme: {
-            extend: {
-                colors: {
-                    brand: '#00C4B4',
-                    brandDark: '#00a89a',
-                }
-            }
-        }
-    }
-</script>
 
-<div class="min-h-screen bg-brand py-12 px-4 sm:px-6 lg:px-8 flex items-center justify-center">
-    <div class="max-w-md w-full mx-auto bg-white rounded-xl shadow-2xl overflow-hidden p-8 border border-gray-100">
+<div class="min-h-screen bg-gray-100 py-12 px-4 flex items-center justify-center">
+    <div class="max-w-md w-full bg-white rounded-lg shadow-md p-8 border border-gray-200">
         
         <h2 class="text-2xl font-bold text-center text-gray-800 mb-8"><?php echo $title; ?></h2>
 
-        <form method="post" class="space-y-6">
+        <form method="post" class="space-y-5">
             
             <div>
-                <label class="block text-sm font-semibold text-gray-700 mb-1">Your Query is Regarding:*</label>
-                <select name="query" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand focus:border-brand outline-none transition-all">
+                <label class="block text-sm font-medium text-gray-700 mb-1">Your Query is Regarding:*</label>
+                <select name="query" required class="w-full px-3 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500 outline-none">
                     <option value="">-- Choose Option --</option>
                     <option value="Counseling">Counseling</option>
                     <option value="IELTS/PTE">IELTS/PTE Enquiry</option>
@@ -34,37 +22,37 @@ $title = "Application Form";
             </div>
 
             <div>
-                <label class="block text-sm font-semibold text-gray-700 mb-1">Full Name:*</label>
+                <label class="block text-sm font-medium text-gray-700 mb-1">Full Name:*</label>
                 <input type="text" name="name" required placeholder="John Doe"
-                    class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand focus:border-brand outline-none transition-all">
+                    class="w-full px-3 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500 outline-none">
             </div>
 
             <div class="grid grid-cols-2 gap-4">
                 <div>
-                    <label class="block text-sm font-semibold text-gray-700 mb-1">Age:*</label>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Age:*</label>
                     <input type="number" name="age" required 
-                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand focus:border-brand outline-none transition-all text-gray-700">
+                        class="w-full px-3 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500 outline-none">
                 </div>
                 <div>
-                    <label class="block text-sm font-semibold text-gray-700 mb-1">Academic Profile:*</label>
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Academic Profile:*</label>
                     <input type="text" name="academic" placeholder="e.g. 3.5 GPA" required 
-                        class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand focus:border-brand outline-none transition-all">
+                        class="w-full px-3 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-500 outline-none">
                 </div>
             </div>
 
-            <div class="p-3 bg-gray-50 rounded-lg border border-gray-200">
-                <span class="block text-sm font-semibold text-gray-700 mb-2">Language Test:*</span>
+            <div class="p-3 bg-gray-50 rounded border border-gray-200">
+                <span class="block text-sm font-medium text-gray-700 mb-2">Language Test:*</span>
                 <div class="flex gap-4">
-                    <label class="inline-flex items-center text-sm text-gray-600">
-                        <input type="radio" name="lang" value="IELTS" class="text-brand focus:ring-brand">
+                    <label class="inline-flex items-center text-sm">
+                        <input type="radio" name="lang" value="IELTS" class="text-blue-600">
                         <span class="ml-2">IELTS</span>
                     </label>
-                    <label class="inline-flex items-center text-sm text-gray-600">
-                        <input type="radio" name="lang" value="PTE" class="text-brand focus:ring-brand">
+                    <label class="inline-flex items-center text-sm">
+                        <input type="radio" name="lang" value="PTE" class="text-blue-600">
                         <span class="ml-2">PTE</span>
                     </label>
-                    <label class="inline-flex items-center text-sm text-gray-600">
-                        <input type="radio" name="lang" value="None" checked class="text-brand focus:ring-brand">
+                    <label class="inline-flex items-center text-sm">
+                        <input type="radio" name="lang" value="None" checked class="text-blue-600">
                         <span class="ml-2">None</span>
                     </label>
                 </div>
@@ -72,8 +60,8 @@ $title = "Application Form";
 
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
-                    <label class="block text-sm font-semibold text-gray-700 mb-1">Preferred Country:*</label>
-                    <select name="country" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand outline-none">
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Preferred Country:*</label>
+                    <select name="country" required class="w-full px-3 py-2 border border-gray-300 rounded outline-none">
                         <option value="Australia">Australia</option>
                         <option value="Canada">Canada</option>
                         <option value="UK">UK</option>
@@ -81,8 +69,8 @@ $title = "Application Form";
                     </select>
                 </div>
                 <div>
-                    <label class="block text-sm font-semibold text-gray-700 mb-1">Nearest Branch:*</label>
-                    <select name="branch" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-brand outline-none">
+                    <label class="block text-sm font-medium text-gray-700 mb-1">Nearest Branch:*</label>
+                    <select name="branch" required class="w-full px-3 py-2 border border-gray-300 rounded outline-none">
                         <option value="Putalisadak">Putalisadak</option>
                         <option value="Butwal">Butwal</option>
                         <option value="Chitwan">Chitwan</option>
@@ -92,8 +80,23 @@ $title = "Application Form";
             </div>
 
             <div class="pt-4">
+                  <div class="mb-4 text-sm text-gray-600">
+          <label class="flex items-start gap-2 cursor-pointer">
+            <input type="checkbox" name="consent" required class="mt-1">
+            <span>
+              I have read and agree to the
+              <a href="#terms" target="_blank" class="text-brand underline">
+                Terms & Conditions
+              </a>
+              and
+              <a href="#privacy" target="_blank" class="text-brand underline">
+                Privacy Policy
+              </a>.
+            </span>
+          </label>
+        </div>
                 <button type="submit" name="app_check" 
-                    class="w-full bg-brand hover:bg-brandDark text-white font-bold py-3 rounded-lg shadow-lg transform active:scale-[0.98] transition-all">
+                    class="w-full bg-[#00C4B4] hover:bg-[#00C4B4] text-white font-semibold py-2 rounded transition-colors">
                     Submit Application
                 </button>
             </div>
