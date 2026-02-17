@@ -1,9 +1,9 @@
 <?php
 // Added the universal header
-include 'includes/header.php';
+include '../includes/header.php';
 
 // Added the Navigation Bar
-include 'includes/navbar.php';
+include '../includes/navbar.php';
 ?>
 
 <main class="pt-20"> <section id="home" class="relative min-h-screen pt-10 bg-gradient-to-br from-[#00C4B4]/10 to-white flex items-center">
@@ -130,7 +130,7 @@ include 'includes/navbar.php';
 
       </div>
     </section>
-    
+
   <!-- FAQ Section -->
 <section id="faq" class="py-20 bg-white">
   <div class="text-center max-w-7xl mx-auto px-6 lg:px-8">
@@ -186,11 +186,12 @@ include 'includes/navbar.php';
       <div class="max-w-3xl mx-auto px-6">
         <h2 class="text-2xs text-black opacity-60 mb-4">Still have questions?</h2>
         
-        <a href="getintouch.php" class="inline-block px-8 py-3 bg-[#15366b] text-white font-Regular rounded-3xl shadow-md hover:scale-105 hover:bg-brand transition duration-300">
-          Get in Touch
-        </a>
+     <a href="getintouch/getintouch.php" class="inline-block px-8 py-3 bg-[#15366b] text-white font-Regular rounded-3xl shadow-md hover:scale-105 hover:bg-brand transition duration-300">
+  Get in Touch
+</a>
       </div>
     </section>
+    <script src="js/getintouch.js"></script>
     
 </main>
 
