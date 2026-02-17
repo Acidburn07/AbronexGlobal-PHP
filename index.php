@@ -118,6 +118,7 @@ include 'includes/navbar.php';
 
       </div>
     </section>
+<!--Added Get in touch Section-->
 
 <section class="py-16 bg-white/5 text-center font-secondary border-t border-gray-100">
       <div class="max-w-3xl mx-auto px-6">
