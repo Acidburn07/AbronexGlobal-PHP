@@ -45,7 +45,7 @@ include '../includes/navbar.php';
         </div>
     </section>
 </main>
-    <script src="js/getintouch.js"></script>
+    <script src="../getintouch/getintouch.js"></script>
 
 
 <?php
