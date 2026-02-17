@@ -14,7 +14,7 @@
     
       </nav>
 
-      <a href="application.php" class="hidden md:inline-flex items-center justify-center px-6 py-2.5 bg-brand text-white rounded-xl shadow hover:scale-105 transition font-medium">
+      <a href="includes/application.php" class="hidden md:inline-flex items-center justify-center px-6 py-2.5 bg-brand text-white rounded-xl shadow hover:scale-105 transition font-medium">
         Free Consultation
       </a>
       

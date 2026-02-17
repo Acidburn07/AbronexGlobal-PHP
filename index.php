@@ -1,6 +1,7 @@
 <?php
 // Added the universal header
 include 'includes/header.php';
+include 'includes/application.php';
 
 // Added the Navigation Bar
 include 'includes/navbar.php';
