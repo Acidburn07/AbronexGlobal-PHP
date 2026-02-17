@@ -1,62 +1,120 @@
+<?php
+// Added the universal header
+include 'includes/header.php';
 
-<form action="#" method="post">
-
-  <h2>Please, Fill out the below form. We will contact you after finding your desired choice.</h2>
-
-  <!-- Full Name -->
-  <label for="name">Full Name:</label><br>
-  <input type="text" id="name" name="name" required><br><br>
-
-  <!-- Email -->
-  <label for="email">Email Address:</label><br>
-  <input type="email" id="email" name="email" required><br><br>
-
-  <!-- Phone -->
-  <label for="phone">Phone Number:</label><br>
-  <input type="tel" id="phone" name="phone" required><br><br>
-   
-  <label for="study_destination">Select Your Target Destination:</label><br>
-  <select name="study_destination" required>
-        <option value="Canada">Canada</option>
-        <option value="USA">USA</option>
-        <option value="UK">UK</option>
-        <option value="Australia">Australia</option>
-        <option value="Other">Other</option>
-      </select> <br> <br>
- 
-  <label for="program_type">Select Your Desired Program:</label><br>
-      <select name="program_type" required>
-        <option value="Undergraduate">Undergraduate</option>
-        <option value="Post Graduate">Post Graduate</option>
-        <option value="Master Degree">Masters</option>
-        <option value="Test Preparation">Test Preparation</option>
-        <option value="Career Counseling">Career Counseling</option>
-      </select> <br><br>
-  
-  <label for="college_type">Select Your Desired College type:</label><br>
-  <select name="college_type" required>
-    <option value="public">Public University</option>
-    <option value="private">Private University</option>
-    <option value="community">Community College</option>
-    <option value="technical">Technical / Vocational</option>
-  </select> <br> <br> 
-
-  <label for="tuition_fee">Select Your Estimated Tuition Fee Budget:</label><br>
-  <select name="budget_range" required>
-    <option value="low">Under $10,000</option>
-    <option value="medium">$10,000 to $25,000</option>
-    <option value="high">Above $25,000</option>
-  </select> <br> <br>
+?>
 
 
+<section class="bg-blue-70 py-16 px-4">
 
+  <div class="max-w-5xl mx-auto bg-white rounded-2xl shadow-xl p-10 border border-blue-100">
 
-  <!-- Additional Message-->
-  <label for="message">Message:</label><br>
-  <textarea id="message" name="message"></textarea><br><br>
+    <p class="text-center text-blue-900 mb-10">
+      Tell us your preferences and we will notify you when we find the perfect college for you.
+    </p>
 
-  <!-- Submit -->
-  <button type="submit">Submit</button>
+    <form action="#" method="post" class="space-y-6">
 
-</form>
+      <!-- Full Name -->
+      <div>
+        <label class="block font-semibold text-blue-500">Full Name:</label>
+        <input type="text" name="name" required
+        class="w-semi mt-2 p-3 border border-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+      </div>
 
+      <!-- Email -->
+      <div>
+        <label class="block font-semibold text-blue-500">Email Address:</label>
+        <input type="email" name="email" required
+        class="w-semi mt-2 p-3 border border-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+      </div>
+
+      <!-- Phone -->
+      <div>
+        <label class="block font-semibold text-blue-500">Phone Number:</label>
+        <input type="tel" name="phone" required
+        class="w-semi mt-2 p-3 border border-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+      </div>
+
+      <!-- Target Destination -->
+      <div>
+        <label class="block font-semibold text-blue-500">Target Destination:</label>
+        <select name="study_destination" required
+        class="w-semi mt-2 p-3 border border-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+        <option>Select an option</option>
+         <option>Canada</option>
+          <option>USA</option>
+          <option>UK</option>
+          <option>Australia</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <!-- Desired Program -->
+      <div>
+        <label class="block font-semibold text-blue-500">Desired Program:</label>
+        <select name="program_type" required
+        class="w-semi mt-2 p-3 border border-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+         <option>Select an option</option>
+         <option>Undergraduate</option>
+         <option> Bachelor</option>
+          <option>Post Graduate</option>
+          <option>Masters</option>
+        </select>
+      </div>
+
+      <!-- College Type -->
+      <div>
+        <label class="block font-semibold text-blue-500">College Type:</label>
+        <select name="college_type" required
+        class="w-semi mt-2 p-3 border border-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+          <option>Select an option</option>
+         <option>Public University</option>
+          <option>Private University</option>
+          <option>Community College</option>
+          <option>Technical / Vocational</option>
+        </select>
+      </div>
+
+      <!-- Budget -->
+      <div>
+        <label class="block font-semibold text-blue-500">Estimated Tuition Budget:</label>
+        <select name="budget_range" required
+        class="w-semi mt-2 p-3 border border-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+          <option>Select an option</option>
+          <option>Under $10,000</option>
+          <option>$10,000 - $25,000</option>
+          <option>Above $25,000</option>
+        </select>
+      </div>
+
+      <!-- Notify Via -->
+      <div>
+        <label class="block font-semibold text-blue-500">Notify Via:</label>
+        <select name="Notify_via" required
+        class="w-semi mt-2 p-3 border border-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+         <option>Select an option</option>
+         <option>Email</option>
+          <option>Phone</option>
+        </select>
+      </div>
+
+      <!-- Message -->
+      <div>
+        <label class="block font-semibold text-blue-500">Message:</label>
+        <textarea name="message"
+        class="w-full mt-2 p-3 border border-blue-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+        placeholder="Further information/Interest"></textarea>
+      </div>
+
+      <!-- Submit -->
+      <button type="submit"
+      class="w-full bg-blue-700 text-white font-semibold p-3 rounded-lg hover:bg-blue-800 transition duration-300 shadow-md">
+        Submit 
+      </button>
+
+    </form>
+
+  </div>
+
+</section>
