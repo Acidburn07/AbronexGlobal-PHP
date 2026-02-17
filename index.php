@@ -123,7 +123,53 @@ include 'includes/navbar.php';
 
       </div>
     </section>
+   <!-- FAQ -->
+  <!-- FAQ Section -->
+<section id="faq" class="py-20 bg-white">
+  <div class="text-center max-w-7xl mx-auto px-6 lg:px-8">
 
+    
+    <div class="inline-flex px-4 py-2 bg-brand/10 rounded-full mb-4">
+      <span class="text-sm font-semibold text-brand">
+        FAQ
+      </span>
+    </div>
+
+    
+    <h2 class="text-2xl font-semibold text-gray-900 mb-10">
+      Frequently Asked Questions
+    </h2>
+
+    <!-- questions -->
+    <div class="space-y-4 max-w-3xl mx-auto text-left">
+      <p class="text-lg font-medium text-gray-800">
+        What makes Abronex Global different from other consulting services?
+      </p>
+
+      <p class="text-lg font-medium text-gray-800">
+        When should I work with a college admissions consultant?
+      </p>
+
+      <p class="text-lg font-medium text-gray-800">
+        How do your test preparation programs work?
+      </p>
+
+      <p class="text-lg font-medium text-gray-800">
+        What is your success rate?
+      </p>
+
+      <p class="text-lg font-medium text-gray-800">
+        Do you offer financial aid and scholarship guidance?
+      </p>
+
+      
+      <p class="text-lg font-medium text-gray-800">
+        Can you help with international university applications?
+      </p>
+    </div>
+
+  </div>
+</section>
 </main>
 
 <?php
