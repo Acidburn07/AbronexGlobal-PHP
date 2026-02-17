@@ -1,7 +1,6 @@
 <?php
 // Added the universal header
 include 'includes/header.php';
-include 'includes/application.php';
 
 // Added the Navigation Bar
 include 'includes/navbar.php';
@@ -75,49 +74,49 @@ include 'includes/navbar.php';
             <h3 class="text-2xl font-bold text-brandDark mb-2">Test Preparation</h3>
             <p class="text-gray-600 font-secondary">SAT, ACT, GRE, GMAT & more.</p>
             <div class="tags flex gap-2">
-                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition">Personalized plans</span>
-                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition">Practice Tests</span>
-                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition">Score Analysis</span>
+                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition whitespace-nowrap">Personalized plans</span>
+                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition whitespace-nowrap">Practice Tests</span>
+                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition whitespace-nowrap">Score Analysis</span>
             </div>
           </div>
           <div class="service-card p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
             <img src="assets/carrer.png" class="hero-image w-10" />
             <h3 class="text-2xl font-bold text-brandDark mb-2">Career Counseling</h3>
             <p class="text-gray-600 font-secondary">Navigate your carrer path with professional guidance and industry insights.</p>
-            <div class="tags flex gap-2">
-                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition">Carrer Assessment </span>
-                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition">Resume Building</span>
-                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition">Interview Skills</span>
+            <div class="tags flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition whitespace-nowrap">Carrer Assessment </span>
+                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition whitespace-nowrap">Resume Building</span>
+                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition whitespace-nowrap">Interview Skills</span>
             </div>
           </div>
           <div class="service-card p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
             <img src="assets/goal.png" class="hero-image w-10" />
             <h3 class="text-2xl font-bold text-brandDark mb-2">Goal Planning</h3>
             <p class="text-gray-600 font-secondary">Set and achieve your academic and professional goals with structured planning.</p>
-            <div class="tags flex gap-2">
-                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition">Milestone tracking</span>
-                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition">Progress Reports</span>
-                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition">Strategy Sessions</span>
+            <div class="tags flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition whitespace-nowrap">Milestone tracking</span>
+                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition whitespace-nowrap">Progress Reports</span>
+                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition whitespace-nowrap">Strategy Sessions</span>
             </div>
           </div>
           <div class="service-card p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
             <img src="assets/essay.png" class="hero-image w-10" />
             <h3 class="text-2xl font-bold text-brandDark mb-2">Essay Writing</h3>
             <p class="text-gray-600 font-secondary">Craft compelling personal statements and essays that stands out of admissions officers.</p>
-             <div class="tags flex gap-2">
-                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition">personal Statements</span>
-                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition">Supplement Essays</span>
-                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition">Unlimited Revisions</span>
+             <div class="tags flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition whitespace-nowrap">personal Statements</span>
+                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition whitespace-nowrap">Supplement Essays</span>
+                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition whitespace-nowrap">Unlimited Revisions</span>
             </div>
           </div>
           <div class="service-card md:col-span-2 p-6 bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition">
             <img src="assets/mentorship.png" class="hero-image w-10" />
             <h3 class="text-2xl font-bold text-brandDark mb-2">Mentorship Program</h3>
             <p class="text-gray-600 font-secondary">One-on-one mentorship with experienced professionals and alumni from top universities.</p>
-            <div class="tags flex gap-2">
-                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition">Weekly Sessions</span>
-                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition">Expert mentors</span>
-                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition">Peer Networks</span>
+            <div class="tags flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition whitespace-nowrap">Weekly Sessions</span>
+                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition whitespace-nowrap">Expert mentors</span>
+                <span class="px-3 py-1 bg-gray-200 text-black rounded-xl shadow hover:scale-105 transition whitespace-nowrap">Peer Networks</span>
             </div>
           </div>
         </div>
