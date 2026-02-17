@@ -6,7 +6,7 @@ include 'db.php';
 $id = $_GET['id'];
 
 // Fetch the record from the database
-$result = mysqli_query($conn, "SELECT * FROM student_applications WHERE id='$id'");
+$result = mysqli_query($conn, "SELECT * FROM student_preferences WHERE id='$id'");
 $row = mysqli_fetch_array($result);
 ?>
 
@@ -98,7 +98,7 @@ if(isset($_POST['submit'])){
     $notify = $_POST['notify_via'];
     $message = $_POST['message'];
 
-    $query = mysqli_query($conn, "UPDATE student_applications 
+    $query = mysqli_query($conn, "UPDATE student_preferences
         SET name='$name', email='$email', phone='$phone', study_destination='$destination', 
             program_type='$program', college_type='$college', budget_range='$budget', 
             notify_via='$notify', message='$message'
@@ -112,7 +112,7 @@ if(isset($_POST['submit'])){
 }
 
 if(isset($_POST['delete'])){
-    $query = mysqli_query($conn, "DELETE FROM student_applications WHERE id='$id'");
+    $query = mysqli_query($conn, "DELETE FROM student_preferences WHERE id='$id'");
     if($query){
         echo "<h2>Application deleted successfully</h2>";
     } else {

@@ -28,6 +28,7 @@ include 'includes/navbar.php';
               Explore Services
             </a>
 
+
             <a href="#contact" class="px-8 py-4 border border-brand text-brand rounded-xl hover:bg-brand hover:text-white transition">
               Free Consultation
 
@@ -191,27 +192,6 @@ include 'includes/navbar.php';
       </div>
     </section>
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </main>
 
 <?php

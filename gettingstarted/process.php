@@ -17,7 +17,7 @@ if (isset($_POST['submit'])) {
     include 'db.php';
 
      // Define an SQL query to insert data into the 'student_applications' table
-    $sql = "INSERT INTO student_applications 
+    $sql = "INSERT INTO student_preferences
     (name, email, phone, study_destination, program_type, college_type, budget_range, notify_via, message)
     VALUES 
     ('$name', '$email', '$phone', '$destination', '$program', '$college', '$budget', '$notify', '$message')";
