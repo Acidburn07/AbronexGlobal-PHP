@@ -119,6 +119,28 @@ include 'includes/navbar.php';
       </div>
     </section>
 
+<section class="py-16 bg-white/5 text-center font-secondary border-t border-gray-100">
+      <div class="max-w-3xl mx-auto px-6">
+        <h2 class="text-2xs text-black opacity-60 mb-4">Still have questions?</h2>
+        
+        <a href="getintouch.php" class="inline-block px-8 py-3 bg-[#15366b] text-white font-Regular rounded-3xl shadow-md hover:scale-105 hover:bg-brand transition duration-300">
+          Get in Touch
+        </a>
+      </div>
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+
 </main>
 
 <?php
