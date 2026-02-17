@@ -1,6 +1,6 @@
 <?php
 // Added the universal header
-include 'includes/header.php';
+include '../includes/header.php';
 
 ?>
 
