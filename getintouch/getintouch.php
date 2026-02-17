@@ -1,7 +1,7 @@
 <?php
 // Include the universal header and navbar
-include 'includes/header.php';
-include 'includes/navbar.php';
+include '../includes/header.php';
+include '../includes/navbar.php';
 ?>
 
 <main class="pt-20">
@@ -50,5 +50,5 @@ include 'includes/navbar.php';
 
 <?php
 // Include the universal footer
-include 'includes/footer.php';
+include '../includes/footer.php';
 ?>
