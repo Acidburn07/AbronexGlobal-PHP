@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost"; // Replace with your MySQL server hostname
 $username = "bbcap25_13";     // Replace with your MySQL username
-$password ="2rZhb6nf";     // Replace with your MySQL password
-$dbname = "wp_bbcap_13";       // Replace with the name of your MySQL database
+$password = "2rZhb6nf";     // Replace with your MySQL password
+$dbname = "wp_bbcap25_13";       // Replace with the name of your MySQL database
         
 // Create a database connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -10,5 +10,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
+} else {
+    echo "Database connected successfully!";
 }
 ?>

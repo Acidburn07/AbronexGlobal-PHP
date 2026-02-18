@@ -3,7 +3,7 @@
 if (isset($_POST['submit'])) {
     
     // Retrieve data from the form and store it in variables
-    $fullname = $_POST['fullname'];
+    $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
     $destination = $_POST['study_destination'];
@@ -16,7 +16,7 @@ if (isset($_POST['submit'])) {
     // Include the database connection file
     include 'db.php';
 
-     // Define an SQL query to insert data into the 'student_applications' table
+     // Define an SQL query to insert data into the 'student_preferences' table
     $sql = "INSERT INTO student_preferences
     (name, email, phone, study_destination, program_type, college_type, budget_range, notify_via, message)
     VALUES 

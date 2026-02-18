@@ -28,8 +28,10 @@ include 'includes/navbar.php';
               Explore Services
             </a>
 
-            <a href="#contact" class="px-8 py-4 border border-brand text-brand rounded-xl hover:bg-brand hover:text-white transition">
-              Free Consultation
+            <a href="gettingstarted/gettingstarted.php" class="px-8 py-4 border border-brand text-brand rounded-xl hover:bg-brand hover:text-white transition">
+              Start Your Journey 
+            </a>
+
             </a>
           </div>
         </div>
@@ -124,16 +126,20 @@ include 'includes/navbar.php';
 
       </div>
     </section>
+<<<<<<< HEAD
+   <!-- FAQ -->
+=======
 
 
   <!-- FAQ Section -->
+>>>>>>> a3bf60817cb7001a134e2e427ead859caeaa52ce
 <section id="faq" class="py-20 bg-white">
   <div class="text-center max-w-7xl mx-auto px-6 lg:px-8">
 
 
     
     <div class="inline-flex px-4 py-2 bg-brand/10 rounded-full mb-4">
-      <span class="text-sm font-semibold text-brand">
+      <span class="text-sm font-semibold text-secondary">
         FAQ
       </span>
     </div>
