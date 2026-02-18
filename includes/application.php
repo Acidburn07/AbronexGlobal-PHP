@@ -3,7 +3,7 @@ $title = "Application Form";
 ?>
 
 
-
+<script src="https://cdn.tailwindcss.com"></script>
 <div class="min-h-screen bg-gray-100 py-12 px-4 flex items-center justify-center">
     <div class="max-w-md w-full bg-white rounded-lg shadow-md p-8 border border-gray-200">
         
