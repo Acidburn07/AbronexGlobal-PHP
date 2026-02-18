@@ -1,0 +1,20 @@
+/* =========================================
+   Abronex Global - Global Styles
+   Note: Most styling is handled by Tailwind CSS in the PHP files.
+   ========================================= */
+
+/* 1. Smooth Scrolling for anchor links (like clicking "Services" and gliding down) */
+html {
+  scroll-behavior: smooth;
+}
+
+/* 2. Custom utility to hide scrollbars but keep functionality (optional, but looks clean!) */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Add any crazy custom animations or non-Tailwind things below this line in the future */
