@@ -2,12 +2,17 @@
 // Include database connection
 include 'db.php';
 
-// Get the ID from URL
+// Get the ID from URL - Logic: Fetching the specific record to edit
 $id = $_GET['id'];
 
 // Fetch the record from the database
 $result = mysqli_query($conn, "SELECT * FROM getintouch WHERE id='$id'");
 $row = mysqli_fetch_array($result);
+
+// Error handling if record doesn't exist
+if (!$row) {
+    die("Record not found.");
+}
 ?>
 
 <h2>Update Your Application</h2>
@@ -15,65 +20,61 @@ $row = mysqli_fetch_array($result);
 <form method="post" action="">
     <input type="hidden" name="id" value="<?php echo $id; ?>">
 
-  <div class="row">
-    <div class="col">
-      <input type="text" class="form-control" name="contact_name" required placeholder="Full Name" value="<?php echo $row['name']; ?>">
+    <div class="row">
+        <div class="col">
+            <label>Full Name</label>
+            <input type="text" class="form-control" name="contact_name" required value="<?php echo $row['name']; ?>">
+        </div>
+        <div class="col">
+            <label>Email Address</label>
+            <input type="email" class="form-control" name="contact_email" required value="<?php echo $row['email']; ?>">
+        </div>
     </div>
-    <div class="col">
-      <input type="email" class="form-control" name="contact_email" required placeholder="Email Address" value="<?php echo $row['email']; ?>">
+    <br>
+    <div>
+        <label>Message</label>
+        <textarea class="form-control" name="contact_message" rows="5"><?php echo $row['message']; ?></textarea>
     </div>
-  </div>
-  <br>
-  <div class="row">
-    <div class="col">
-      <input type="tel" class="form-control" name="phone" placeholder="Phone Number" value="<?php echo isset($row['phone']) ? $row['phone'] : ''; ?>">
+    <br>
+    <div class="row">
+        <div class="col">
+            <button type="submit" class="btn btn-primary" name="submit" style="background-color: #00C4B4; border: none;">Update Inquiry</button>
+        </div>
+        <div class="col">
+            <button type="submit" class="btn btn-danger" name="delete">Delete Inquiry</button>
+        </div>
     </div>
-    <div class="col">
-      <select class="form-control" name="study_destination">
-        <option value="Canada" <?php if(isset($row['study_destination']) && $row['study_destination']=='Canada') echo 'selected'; ?>>Canada</option>
-        <option value="USA" <?php if(isset($row['study_destination']) && $row['study_destination']=='USA') echo 'selected'; ?>>USA</option>
-      </select>
-    </div>
-  </div>
-  <br>
-  <div>
-    <textarea class="form-control" name="contact_message" placeholder="Message"><?php echo $row['message']; ?></textarea>
-  </div>
-  <br>
-  <div class="row">
-    <div class="col">
-      <button type="submit" class="btn btn-primary" name="submit">Update Application</button>
-    </div>
-    <div class="col">
-      <button type="submit" class="btn btn-danger" name="delete">Delete Application</button>
-    </div>
-  </div>
 </form>
 
 <?php
+// UPDATE LOGIC
 if(isset($_POST['submit'])){
     $update_id = $_POST['id']; 
-    $name = $_POST['contact_name'];
-    $email = $_POST['contact_email'];
-    $message = $_POST['contact_message'];
+    // Best Practice: Sanitize inputs to prevent SQL errors
+    $name = mysqli_real_escape_string($conn, $_POST['contact_name']);
+    $email = mysqli_real_escape_string($conn, $_POST['contact_email']);
+    $message = mysqli_real_escape_string($conn, $_POST['contact_message']);
 
-    // Updating the getintouch table using our field names
-    $query = mysqli_query($conn, "UPDATE getintouch
-        SET name='$name', email='$email', message='$message'
+    $query = mysqli_query($conn, "UPDATE getintouch 
+        SET name='$name', email='$email', message='$message' 
         WHERE id='$update_id'");
 
     if($query){
-        echo "<h2>Your application has been updated successfully</h2>";
+        echo "<h2 style='color: green;'>Inquiry updated successfully</h2>";
     } else {
         echo "Record not updated: " . mysqli_error($conn);
     }
 }
 
+// DELETE LOGIC
 if(isset($_POST['delete'])){
     $delete_id = $_POST['id']; 
     $query = mysqli_query($conn, "DELETE FROM getintouch WHERE id='$delete_id'");
+    
     if($query){
-        echo "<h2>Application deleted successfully</h2>";
+        echo "<h2 style='color: red;'>Inquiry deleted successfully</h2>";
+        // Optional: Redirect back to a view-all page after deletion
+        // header("Location: view_messages.php");
     } else {
         echo "Record not deleted: " . mysqli_error($conn);
     }
