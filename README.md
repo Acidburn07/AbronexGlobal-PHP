@@ -32,7 +32,8 @@ Database Tables
 
 Table 1 (Created By): Table Name
 
-Table 2 (Anup Kandel ): student_preference
+Table 2 (Anup Kandel ): student_preferences 
+I have created table in myphpadmin as student_preferences.
 
 Table 3 (Created By): Table Name
 Include the ER Diagram of the database.
@@ -41,11 +42,15 @@ Created Forms
 List and describe any forms that have been created as part of your project. Include details about the purpose of each form and any validation logic.
 
 Form 1 (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
-Form 2: (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
+
+
+Form 2: 
+(Created By): Start Your Journey: 
+So, as per the feature I have created form which includes Full name, Email, Phone, Target Destination, Desired Program, College Type, Estimated Tuition Budget, Notify Via and  Message.  
+Link to Shell : http://shell.hamk.fi/~amk1010362/AbronexGlobal-PHP/
+
+
 Form 3: (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
 Created Tables
 List any tables that you have created in the project work
 
-Table 1 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
-Table 2 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
-Table 3 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
