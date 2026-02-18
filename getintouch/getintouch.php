@@ -15,7 +15,7 @@ include '../includes/navbar.php';
     </p>
     
 
-            <form id="getintouchform" name="getintouchform" action="process.php" method="POST" class="bg-white p-8 md:p-10 rounded-2xl shadow-sm border border-gray-100 text-left space-y-6">
+            <form id="getintouchform" name="getintouchform" action="process.php" method="POST" onsubmit="return validateForm()" class="bg-white p-8 md:p-10 rounded-2xl shadow-sm border border-gray-100 text-left space-y-6">
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
