@@ -1,0 +1,51 @@
+
+Welcome to our Project- Abronex Global
+
+This file is created to document our activities throughout the project's lifecycle.
+
+Project Name:Abronex Global 
+Team Number -13 
+
+We have created this webiste to make abroad study accessible to every student seeking for assistant and detailed information. The theme of our project is guided to a one-stop solution for all educational needs from English language test preparation to visa applications, that we have got you covered. With our expert guidance and personalized approach, we will make student's study abroad journey seamless and successful.
+
+Table of Contents
+i.Features
+ii.Database Tables
+iii.Created Forms
+iv.Created Tables
+
+
+Features
+In this section, list and describe the features or functionality that you are working on. You can use checkboxes to track the progress of each feature.
+
+ Feature 1 (Full Name): Title of the feature.
+
+ Feature 2 (Anup Kandel): "Starting Journey"
+ - I am an international student here in Finland. Before coming here, I had planned to study in Canada and had already started that process. However, during that journey, I realized that one thing was missing in every consultancy I approached: guidance in selecting a college and course based on my personal preferences. I had planned to apply to different locations, but many consultancies did not know about that and when I visit in-person then many of them kills my time with no result. At that time, I felt that if there had been a consultancy that could listen to my preferences and notified me when a suitable college and course were available, it would have made the process much easier and saves my times. This idea inspired the feature on this website.
+
+
+ Feature 3 (Full Name): Title of the feature.
+Add features as required.
+
+
+Database Tables
+
+Table 1 (Created By): Table Name
+
+Table 2 (Anup Kandel ): student_preference
+
+Table 3 (Created By): Table Name
+Include the ER Diagram of the database.
+
+Created Forms
+List and describe any forms that have been created as part of your project. Include details about the purpose of each form and any validation logic.
+
+Form 1 (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
+Form 2: (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
+Form 3: (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
+Created Tables
+List any tables that you have created in the project work
+
+Table 1 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
+Table 2 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
+Table 3 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).

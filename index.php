@@ -27,6 +27,7 @@ include 'includes/navbar.php';
             <a href="#services" class="px-8 py-4 bg-brand text-white rounded-xl shadow hover:scale-105 transition">
               Explore Services
             </a>
+
             <a href="#contact" class="px-8 py-4 border border-brand text-brand rounded-xl hover:bg-brand hover:text-white transition">
               Free Consultation
             </a>
@@ -123,9 +124,16 @@ include 'includes/navbar.php';
 
       </div>
     </section>
+<<<<<<< HEAD
    <!-- FAQ -->
+=======
+
+
+  <!-- FAQ Section -->
+>>>>>>> a3bf60817cb7001a134e2e427ead859caeaa52ce
 <section id="faq" class="py-20 bg-white">
   <div class="text-center max-w-7xl mx-auto px-6 lg:px-8">
+
 
     
     <div class="inline-flex px-4 py-2 bg-brand/10 rounded-full mb-4">
@@ -169,6 +177,20 @@ include 'includes/navbar.php';
 
   </div>
 </section>
+
+
+<!--Added Get in touch Section-->
+
+<section class="py-16 bg-white/5 text-center font-secondary border-t border-gray-100">
+      <div class="max-w-3xl mx-auto px-6">
+        <h2 class="text-2xs text-black opacity-60 mb-4">Still have questions?</h2>
+        
+        <a href="getintouch/getintouch.php" class="inline-block px-8 py-3 bg-[#15366b] text-white font-Regular rounded-3xl shadow-md hover:scale-105 hover:bg-brand transition duration-300">
+          Get in Touch
+        </a>
+      </div>
+    </section>
+    
 </main>
 
 <?php
