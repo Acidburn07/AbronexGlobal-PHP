@@ -126,13 +126,6 @@ include 'includes/navbar.php';
 
       </div>
     </section>
-<<<<<<< HEAD
-   <!-- FAQ -->
-=======
-
-
-  <!-- FAQ Section -->
->>>>>>> a3bf60817cb7001a134e2e427ead859caeaa52ce
 <section id="faq" class="py-20 bg-white">
   <div class="text-center max-w-7xl mx-auto px-6 lg:px-8">
 
