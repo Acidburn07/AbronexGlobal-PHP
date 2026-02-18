@@ -29,7 +29,7 @@ include 'includes/navbar.php';
             </a>
 
             <a href="#contact" class="px-8 py-4 border border-brand text-brand rounded-xl hover:bg-brand hover:text-white transition">
-              Free Consultation
+              Start Your Journey 
             </a>
           </div>
         </div>

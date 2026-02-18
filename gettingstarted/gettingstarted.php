@@ -115,6 +115,46 @@ include '../includes/header.php';
 
     </form>
 
+    <script>
+   
+  function validateForm() {
+
+  
+  let destination = document.forms["myForm"]["study_destination"].value;
+  let program = document.forms["myForm"]["program_type"].value;
+  let college = document.forms["myForm"]["college_type"].value;
+  let budget = document.forms["myForm"]["budget_range"].value;
+  let notify = document.forms["myForm"]["Notify_via"].value;
+
+  if (destination == "Select an option") {
+    alert("Please select study destination");
+    return false;
+  }
+
+  if (program == "Select an option") {
+    alert("Please select program type");
+    return false;
+  }
+
+  if (college == "Select an option") {
+    alert("Please select college type");
+    return false;
+  }
+
+  if (budget == "Select an option") {
+    alert("Please select budget range");
+    return false;
+  }
+
+  if (notify == "Select an option") {
+    alert("Please select notification method");
+    return false;
+  }
+
+}
+</script>
+
+
   </div>
 
 </section>
