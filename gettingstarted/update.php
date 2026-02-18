@@ -6,7 +6,7 @@ include 'db.php';
 $id = $_GET['id'];
 
 // Fetch the record from the database
-$result = mysqli_query($conn, "SELECT * FROM student_preference WHERE id='$id'");
+$result = mysqli_query($conn, "SELECT * FROM student_preferences WHERE id='$id'");
 $row = mysqli_fetch_array($result);
 ?>
 
