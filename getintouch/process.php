@@ -3,15 +3,15 @@
 if (isset($_POST['submit'])) {
     
     // Retrieve data from the form and store it in variables
-    $name = $_POST['fullname'];
+    $name = $_POST['contact_name'];
     $email = $_POST['contact_email'];
-    $message = $_POST['message'];
+    $message = $_POST['contact_message'];
 
     // Include the database connection file
     include 'getintouch/db.php';
 
      // Define an SQL query to insert data into the 'student_preferences' table
-    $sql = "INSERT INTO student_preferences
+    $sql = "INSERT INTO getintouch
     (name, email, message)
     VALUES 
     ('$name', '$email', '$message')";
