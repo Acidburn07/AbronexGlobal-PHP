@@ -38,7 +38,7 @@ include 'includes/navbar.php';
 
         <div class="flex justify-center lg:justify-end">
           <div class="hero-image-wrapper">
-            <img src="assets/images/Australia Opera House.jpg" alt="Study Abroad Destination" class="hero-image" />
+            <img src="../assets/images/australia-opera-house.jpg" alt="Study Abroad Destination" class="hero-image" />
           </div>
         </div>
 
