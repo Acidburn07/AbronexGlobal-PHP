@@ -47,7 +47,7 @@ Form 1 (Created By): Form Name: Link to the related code file (github) | Link to
 Form 2: 
 (Created By): Start Your Journey: 
 So, as per the feature I have created form which includes Full name, Email, Phone, Target Destination, Desired Program, College Type, Estimated Tuition Budget, Notify Via and  Message.  
-Link to Shell : http://shell.hamk.fi/~amk1010362/AbronexGlobal-PHP/
+Link to Shell : http://shell.hamk.fi/~amk1010362/AbronexGlobal-PHP/gettingstarted/gettingstarted.php
 
 
 Form 3: (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied

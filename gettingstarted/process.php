@@ -3,7 +3,7 @@
 if (isset($_POST['submit'])) {
     
     // Retrieve data from the form and store it in variables
-    $fullname = $_POST['fullname'];
+    $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
     $destination = $_POST['study_destination'];
