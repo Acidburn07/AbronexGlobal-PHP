@@ -1,8 +1,8 @@
 function validateForm() {
     // 1. Get values using the forms["formName"]["inputName"] format
-    let name = document.forms["quickContactForm"]["contact_name"].value;
-    let email = document.forms["quickContactForm"]["contact_email"].value;
-    let message = document.forms["quickContactForm"]["contact_message"].value;
+    let name = document.forms["getintouchform"]["contact_name"].value;
+    let email = document.forms["getintouchform"]["contact_email"].value;
+    let message = document.forms["getintouchform"]["contact_message"].value;
 
     // 2. Alert Validation for Name
     if (name.trim() == "") {
