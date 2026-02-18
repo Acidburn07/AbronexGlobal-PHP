@@ -12,8 +12,8 @@ include '../includes/header.php';
     <p class="text-center text-blue-900 mb-10">
       Tell us your preferences and we will notify you when we find the perfect college for you.
     </p>
-
-    <form action="process.php" method="post" class="space-y-6">
+   
+   <form name="myForm" action="process.php" method="post" onsubmit="return validateForm()" class="space-y-6">
 
       <!-- Full Name -->
       <div>
