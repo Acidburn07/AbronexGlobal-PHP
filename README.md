@@ -1,11 +1,7 @@
-**Welcome to our Project- Abronex Global**
 
-This file is created to document our activities throughout the project's lifecycle.
+**Project Abronex GLobal-Team13**
 
-Project Name:Abronex Global 
-Team Number -11 
-
-We have created this webiste to make abroad study accessible to every student seeking for assistant and detailed information. The theme of our project is guided to a one-stop solution for all educational needs from English language test preparation to visa applications, that we have got you covered. With our expert guidance and personalized approach, we will make student's study abroad journey seamless and successful.
+Description: We have created this webiste to make abroad study accessible to every student seeking for assistant and detailed information. The theme of our project is guided to a one-stop solution for all educational needs from English language test preparation to visa applications, that we have got you covered. With our expert guidance and personalized approach, we will make student's study abroad journey seamless and successful.
 
 Table of Contents
 i.Features
@@ -60,3 +56,12 @@ Form 3: (Created By): Form Name: Link to the related code file (github) | Link t
 Created Tables
 List any tables that you have created in the project work
 
+##How to Run Locally
+1. Clone the repo: 'git clone https://github.com/Acidburn07/AbronexGlobal-PHP.git'
+2.Updated 'db.php
+
+### Project Milestone: Structural Integrity
+The project repository has been fully audited and synchronized. 
+* **Refactoring:** Successfully migrated all shared UI components to the `/includes` directory.
+* **Redundancy Fix:** Cleared root-level duplicates to ensure a single source of truth for headers and footers.
+* **Pathing:** All asset paths are now relative to the root, ensuring the logo and styles render correctly across all subdirectories (Get In Touch, Application, etc.).
