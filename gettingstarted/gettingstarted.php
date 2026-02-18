@@ -13,7 +13,7 @@ include '../includes/header.php';
       Tell us your preferences and we will notify you when we find the perfect college for you.
     </p>
 
-    <form action="#" method="post" class="space-y-6">
+    <form action="process.php" method="post" class="space-y-6">
 
       <!-- Full Name -->
       <div>
@@ -108,7 +108,7 @@ include '../includes/header.php';
       </div>
 
       <!-- Submit -->
-      <button type="submit"
+      <button type="submit" name="submit"
       class="w-full bg-blue-700 text-white font-semibold p-3 rounded-lg hover:bg-blue-800 transition duration-300 shadow-md">
         Submit 
       </button>

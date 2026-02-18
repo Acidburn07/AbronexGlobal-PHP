@@ -6,13 +6,13 @@ include 'db.php';
 $id = $_GET['id'];
 
 // Fetch the record from the database
-$result = mysqli_query($conn, "SELECT * FROM student_preferences WHERE id='$id'");
+$result = mysqli_query($conn, "SELECT * FROM student_preference WHERE id='$id'");
 $row = mysqli_fetch_array($result);
 ?>
 
 <h2>Update Your Application</h2>
 
-<form method="post" action="">
+<form method="post" action="process.php">
   <div class="row">
     <div class="col">
       <input type="text" class="form-control" name="name" required placeholder="Full Name" value="<?php echo $row['name']; ?>">
@@ -91,7 +91,7 @@ if(isset($_POST['submit'])){
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
-    $destination = $_POST['study_destination'];
+    $destination = $_POST['desired_destination'];
     $program = $_POST['program_type'];
     $college = $_POST['college_type'];
     $budget = $_POST['budget_range'];
@@ -99,7 +99,7 @@ if(isset($_POST['submit'])){
     $message = $_POST['message'];
 
     $query = mysqli_query($conn, "UPDATE student_preferences
-        SET name='$name', email='$email', phone='$phone', study_destination='$destination', 
+        SET name='$name', email='$email', phone='$phone', desired_destination='$destination', 
             program_type='$program', college_type='$college', budget_range='$budget', 
             notify_via='$notify', message='$message'
         WHERE id='$id'");
