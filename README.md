@@ -18,7 +18,11 @@ iv.Created Tables
 Features
 In this section, list and describe the features or functionality that you are working on. You can use checkboxes to track the progress of each feature.
 
- Feature 1 (Full Name): Title of the feature.
+ Feature 1 (Tanka Raj Aryal): Free Consultation
+ -allows collect student details like name, academics, and test scores.
+ -helps to understand what kind of counseling the student needs.
+ -students can identify preferred country easily.
+ -To ensure students agree to terms and privacy rules.
 
  Feature 2 (Anup Kandel): "Starting Journey"
  - I am an international student here in Finland. Before coming here, I had planned to study in Canada and had already started that process. However, during that journey, I realized that one thing was missing in every consultancy I approached: guidance in selecting a college and course based on my personal preferences. I had planned to apply to different locations, but many consultancies did not know about that and when I visit in-person then many of them kills my time with no result. At that time, I felt that if there had been a consultancy that could listen to my preferences and notified me when a suitable college and course were available, it would have made the process much easier and saves my times. This idea inspired the feature on this website.
@@ -30,7 +34,8 @@ Add features as required.
 
 Database Tables
 
-Table 1 (Created By): Table Name
+Table 1 (Tanka RAj Aryal): student_application
+I have created table in myphpadmin as student_application.
 
 Table 2 (Anup Kandel ): student_preferences 
 I have created table in myphpadmin as student_preferences.
@@ -41,7 +46,9 @@ Include the ER Diagram of the database.
 Created Forms
 List and describe any forms that have been created as part of your project. Include details about the purpose of each form and any validation logic.
 
-Form 1 (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
+Form 1 (Tanka Raj Aryal): Free Consultation:
+My form includes Fullname, Query, Academic Profile, Language Test, preferred Country, Nearest Branch and Consent.
+Shell link:http://shell.hamk.fi/~amk1010360/AbronexGlobal-PHP/Application/application.php
 
 
 Form 2: 
