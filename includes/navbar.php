@@ -3,7 +3,7 @@
     <div class="flex items-center justify-between h-20">
 
       <a href="/~bbcap25_13/projectabronex/index.php"">
-        <img src="assets/logo.png" alt="Abronex Global" class="h-10 w-auto" />
+        <img src="../assets/logo.png" alt="Abronex Global" class="h-10 w-auto" />
       </a>
 
       <nav class="hidden md:flex items-center gap-8 font-secondary">

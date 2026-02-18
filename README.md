@@ -1,5 +1,4 @@
-
-Welcome to our Project- Abronex Global
+**Welcome to our Project- Abronex Global**
 
 This file is created to document our activities throughout the project's lifecycle.
 
@@ -40,7 +39,7 @@ I have created table in myphpadmin as student_application.
 Table 2 (Anup Kandel ): student_preferences 
 I have created table in myphpadmin as student_preferences.
 
-Table 3 (Created By): Table Name
+Table 3 (Sandesh Bishokarma ): getintouch
 Include the ER Diagram of the database.
 
 Created Forms
