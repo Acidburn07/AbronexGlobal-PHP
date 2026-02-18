@@ -12,7 +12,7 @@ $title = "Application Form";
 
         <h2 class="text-2xl font-bold text-center text-gray-800 mb-8"><?php echo $title; ?></h2>
 
-        <form method="post" action="process.php" class="space-y-5">
+       <form name="applicationForm" method="post" action="process.php" onsubmit="return validateForm()" class="space-y-5">
 
             <div>
                 <label class="block text-sm font-medium text-gray-700 mb-1">Your Query is Regarding:*</label>
@@ -94,6 +94,42 @@ $title = "Application Form";
                 </button>
             </div>
 
+            <script>
+ function validateForm() {
+   
+    let query = document.forms["applicationForm"]["query"].value;
+    let country = document.forms["applicationForm"]["preferred_country"].value;
+    let branch = document.forms["applicationForm"]["nearest_branch"].value;
+    let consent = document.forms["applicationForm"]["consent"].checked;
+
+    
+    if (query == "" || query == "-- Choose Option --") {
+        alert("Please select what your query is regarding.");
+        return false;
+    }
+
+    if (country == "") {
+        alert("Please select your preferred study destination.");
+        return false;
+    }
+
+    if (branch == "") {
+        alert("Please select the nearest branch to you.");
+        return false;
+    }
+
+    if (!consent) {
+        alert("You must agree to the Terms and Conditions to proceed.");
+        return false;
+    }
+
+    return true; 
+}
+</script>
+
         </form>
     </div>
 </div>
+
+
+
