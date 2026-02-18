@@ -8,7 +8,7 @@ if (isset($_POST['submit'])) {
     $message = $_POST['contact_message'];
 
     // Include the database connection file
-    include 'getintouch/db.php';
+    include 'db.php';
 
      // Define an SQL query to insert data into the 'student_preferences' table
     $sql = "INSERT INTO getintouch
