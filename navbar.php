@@ -2,8 +2,8 @@
   <div class="max-w-7xl mx-auto px-6 lg:px-8">
     <div class="flex items-center justify-between h-20">
 
-      <a href="index.php">
-        <img src="assets/Abronex Global Logo.png" alt="Abronex Global" class="h-10 w-auto" />
+      <a href="/~bbcap25_13/projectabronex/index.php"">
+        <img src="../assets/logo.png" alt="Abronex Global" class="h-10 w-auto" />
       </a>
 
       <nav class="hidden md:flex items-center gap-8 font-secondary">
@@ -14,7 +14,7 @@
     
       </nav>
 
-      <a href="application.php" class="hidden md:inline-flex items-center justify-center px-6 py-2.5 bg-brand text-white rounded-xl shadow hover:scale-105 transition font-medium">
+      <a href="Application/application.php" class="hidden md:inline-flex items-center justify-center px-6 py-2.5 bg-brand text-white rounded-xl shadow hover:scale-105 transition font-medium">
         Free Consultation
       </a>
       
