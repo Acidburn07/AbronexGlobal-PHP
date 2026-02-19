@@ -17,7 +17,7 @@ if (!$row) {
 
 <h2>Update Your Application</h2>
 
-<form method="post" action="">
+<form method="post" action="process.php">
     <input type="hidden" name="id" value="<?php echo $id; ?>">
 
     <div class="row">
@@ -47,10 +47,10 @@ if (!$row) {
 </form>
 
 <?php
-// UPDATE LOGIC
+
 if(isset($_POST['submit'])){
     $update_id = $_POST['id']; 
-    // Best Practice: Sanitize inputs to prevent SQL errors
+
     $name = mysqli_real_escape_string($conn, $_POST['contact_name']);
     $email = mysqli_real_escape_string($conn, $_POST['contact_email']);
     $message = mysqli_real_escape_string($conn, $_POST['contact_message']);
@@ -66,15 +66,14 @@ if(isset($_POST['submit'])){
     }
 }
 
-// DELETE LOGIC
+
 if(isset($_POST['delete'])){
     $delete_id = $_POST['id']; 
     $query = mysqli_query($conn, "DELETE FROM getintouch WHERE id='$delete_id'");
     
     if($query){
         echo "<h2 style='color: red;'>Inquiry deleted successfully</h2>";
-        // Optional: Redirect back to a view-all page after deletion
-        // header("Location: view_messages.php");
+     
     } else {
         echo "Record not deleted: " . mysqli_error($conn);
     }
