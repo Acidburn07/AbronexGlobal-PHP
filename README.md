@@ -11,7 +11,7 @@ Our primary mission is to provide a transparent, scalable platform that cuts thr
 1. **Budget-Tailored Fit:** Recommending the best-fit colleges, universities, and destination countries strictly aligned with a student's personal financial capacity.
 2. **Information Integrity:** Ensuring a "no sugar-coating" approach by sourcing legitimate, up-to-date information directly from official channels (e.g., *studyinfo.fi*, the *Australian High Commission*, and official university portals).
 
-**🚀 Future Scope & Scalability:**
+**  Future Scope & Scalability:**
 The current modular architecture was built with future scalability in mind. Our long-term vision is to integrate an **AI-powered recommendation engine** into this platform to automate and optimize the process of matching students to their ideal, budget-friendly educational destinations.
 
 ---
@@ -84,7 +84,7 @@ A direct inquiry module for students to reach out to experts. It features locali
 
 ## System Architecture & Technical Milestones
 
-### 📂 Directory Structure
+###  Directory Structure
 To ensure scalability for our future AI integration, the project is structured as a Modular Monolith:
 ```text
 projectabronex/
