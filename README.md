@@ -25,6 +25,14 @@ The current modular architecture was built with future scalability in mind. Our 
 
 ---
 
+### Entity-Relationship Diagram (ERD)
+The following diagram illustrates the data structure and relationships between our three core modules:
+
+![Abronex Global ER Diagram](./assets/ERDiagram.png)
+
+
+
+---
 ## Features
 
 - [x] **Feature 1 (Tanka Raj Aryal):** Free Consultation & Student Profiling
