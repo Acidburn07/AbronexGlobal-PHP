@@ -5,7 +5,7 @@
         <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           
           <div>
-            <img src="../assets/logo2.png" alt="Abronex Global Logo" class="brightness-0 invert w-auto h-10 mb-4">
+            <img src="/~bbcap25_13/projectabronex/assets/logo2.png" alt="Abronex Global Logo" class="brightness-0 invert w-auto h-10 mb-4">
             <p class="text-gray-300 leading-relaxed text-justify text-sm">
               Empowering students worldwide to achieve their educational dreams 
               through expert guidance and personalized support.
