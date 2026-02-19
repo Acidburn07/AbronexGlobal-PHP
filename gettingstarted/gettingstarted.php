@@ -109,7 +109,7 @@ include '../includes/header.php';
 
       <!-- Submit -->
       <button type="submit" name="submit"
-      class="w-full bg-blue-700 text-white font-semibold p-3 rounded-lg ">
+      class="w-full bg-blue-700 border text-white font-semibold p-3 rounded-lg ">
         Submit 
       </button>
 
