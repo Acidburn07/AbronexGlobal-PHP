@@ -91,7 +91,7 @@ if(isset($_POST['submit'])){
     $name = $_POST['name'];
     $email = $_POST['email'];
     $phone = $_POST['phone'];
-    $destination = $_POST['desired_destination'];
+    $destination = $_POST['study_destination'];
     $program = $_POST['program_type'];
     $college = $_POST['college_type'];
     $budget = $_POST['budget_range'];
@@ -99,7 +99,7 @@ if(isset($_POST['submit'])){
     $message = $_POST['message'];
 
     $query = mysqli_query($conn, "UPDATE student_preferences
-        SET name='$name', email='$email', phone='$phone', desired_destination='$destination', 
+        SET name='$name', email='$email', phone='$phone', study_destination='$destination', 
             program_type='$program', college_type='$college', budget_range='$budget', 
             notify_via='$notify', message='$message'
         WHERE id='$id'");
