@@ -12,7 +12,7 @@ $row = mysqli_fetch_array($result);
 
 <h2>Update Your Application</h2>
 
-<form method="post" action="process.php">
+<form method="post" action="">
   <div class="row">
     <div class="col">
       <input type="text" class="form-control" name="name" required placeholder="Full Name" value="<?php echo $row['name']; ?>">

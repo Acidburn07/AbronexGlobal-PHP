@@ -17,7 +17,7 @@ if (!$row) {
 
 <h2>Update Your Application</h2>
 
-<form method="post" action="">
+<form method="post" action="process.php">
     <input type="hidden" name="id" value="<?php echo $id; ?>">
 
     <div class="row">
