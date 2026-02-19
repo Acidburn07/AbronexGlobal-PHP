@@ -42,7 +42,7 @@
 
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
 
 <body class="font-primary text-gray-800">

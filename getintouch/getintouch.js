@@ -1,9 +1,33 @@
+function validateForm() {
+  
+  // 1. Get values using document.forms (your preferred style)
+  let name = document.forms["getintouchform"]["contact_name"].value;
+  let email = document.forms["getintouchform"]["contact_email"].value;
+  let message = document.forms["getintouchform"]["contact_message"].value;
 
-document.getElementById('quickContactForm').addEventListener('submit', function(event) {
-    let isValid = true;
-    if (document.getElementById('contact_name').value.trim() === "") { document.getElementById('contactNameError').classList.remove('hidden'); isValid = false; } else { document.getElementById('contactNameError').classList.add('hidden'); }
-    const email = document.getElementById('contact_email').value;
-    if (email.indexOf('@') === -1 || email.indexOf('.') === -1) { document.getElementById('contactEmailError').classList.remove('hidden'); isValid = false; } else { document.getElementById('contactEmailError').classList.add('hidden'); }
-    if (document.getElementById('contact_message').value.trim() === "") { document.getElementById('contactMessageError').classList.remove('hidden'); isValid = false; } else { document.getElementById('contactMessageError').classList.add('hidden'); }
-    if (!isValid) event.preventDefault(); 
-});
+  // 2. Name Validation
+  if (name.trim() == "") {
+    // Show the red error text
+    document.getElementById("contactNameError").classList.remove("hidden");
+    alert("Please enter your Full Name");
+    return false;
+  }
+
+  // 3. Email Validation
+  if (email.trim() == "" || email.indexOf('@') == -1) {
+    // Show the red error text
+    document.getElementById("contactEmailError").classList.remove("hidden");
+    alert("Please enter a valid email address");
+    return false;
+  }
+
+  // 4. Message Validation
+  if (message.trim() == "") {
+    // Show the red error text
+    document.getElementById("contactMessageError").classList.remove("hidden");
+    alert("Please enter your message");
+    return false;
+  }
+
+  // If all checks pass, the form will submit
+}

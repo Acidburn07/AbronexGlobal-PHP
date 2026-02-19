@@ -15,7 +15,7 @@ include '../includes/navbar.php';
     </p>
     
 
-            <form id="quickContactForm" action="submit_message.php" method="POST" class="bg-white p-8 md:p-10 rounded-2xl shadow-sm border border-gray-100 text-left space-y-6">
+            <form id="getintouchform" name="getintouchform" action="process.php" method="POST" onsubmit="return validateForm()" class="bg-white p-8 md:p-10 rounded-2xl shadow-sm border border-gray-100 text-left space-y-6">
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
@@ -37,7 +37,7 @@ include '../includes/navbar.php';
                     <p id="contactMessageError" class="text-red-500 text-xs hidden mt-2">Message cannot be empty.</p>
                 </div>
 
-                <button type="submit" class="w-full bg-brand text-white font-bold py-4 rounded-xl hover:scale-[1.02] hover:shadow-md transition duration-300" style="background-color: #00C4B4;">
+                <button type="submit" name="submit" class="w-full bg-brand text-white font-bold py-4 rounded-xl hover:scale-[1.02] hover:shadow-md transition duration-300" style="background-color: #00C4B4;">
                     Send Message
                 </button>
             </form>
@@ -45,7 +45,7 @@ include '../includes/navbar.php';
         </div>
     </section>
 </main>
-    <script src="../getintouch/getintouch.js"></script>
+    <script src="getintouch.js"></script>
 
 
 <?php
