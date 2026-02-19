@@ -30,7 +30,11 @@ The following diagram illustrates the data structure and relationships between o
 
 ![Abronex Global ER Diagram](./assets/ERDiagram.png)
 
+## UI/UX Design
 
+The visual interface of Abronex Global was designed in Figma to ensure a responsive and professional user experience. 
+
+* **Figma Design Link:** [View Wireframes & Mockups] https://www.figma.com/design/lJPIQTpnMAgUkEsLjFieRp/Abronex-Global?node-id=1-3&t=vsupjweC2DHp8kSN-1
 
 ---
 ## Features
