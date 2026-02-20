@@ -1,32 +1,51 @@
 <?php
-// Check if the 'submit' button in the form was clicked
-if (isset($_POST['submit'])) {
-    
-    // Retrieve data from the form and store it in variables
-    $name = $_POST['contact_name'];
-    $email = $_POST['contact_email'];
-    $message = $_POST['contact_message'];
-
-    // Include the database connection file
-    include 'db.php';
-
-     // Define an SQL query to insert data into the 'student_preferences' table
-    $sql = "INSERT INTO getintouch
-    (name, email, message)
-    VALUES 
-    ('$name', '$email', '$message')";
-
-
-    // Execute the SQL query using the database connection
-    if ($conn->query($sql) === TRUE) {
-        // If the query was successful, display a success message
-        echo "New record added";
-    } else {
-        // If there was an error in the query, display an error message
-        echo "Error: " . $sql . "<br>" . $conn->error;
-    }
-
-    // Close the database connection
-    $conn->close();
-}
+include 'db.php';
+include '../includes/header.php'; // Optional: if you want your navbar to show here
 ?>
+
+<div class="container mt-5">
+    <h2>Admin Dashboard: Student Inquiries</h2>
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Message</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        <?php
+        // 1. Ask the database for all the records
+        $sql = "SELECT * FROM getintouch";
+        $result = $conn->query($sql);
+
+        // 2. Check if we have any rows in the database
+        if ($result->num_rows > 0) {
+            
+            // 3. Loop through each row and print it inside an HTML table row (<tr>)
+            while($row = $result->fetch_assoc()) {
+                echo "<tr>";
+                echo "<td>" . $row['id'] . "</td>";
+                echo "<td>" . $row['name'] . "</td>";
+                echo "<td>" . $row['email'] . "</td>";
+                echo "<td>" . $row['message'] . "</td>";
+                
+                // This is the magic link that sends the specific ID to your update.php page!
+                echo "<td><a href='update.php?id=" . $row['id'] . "' class='btn btn-warning btn-sm'>Edit / Delete</a></td>";
+                echo "</tr>";
+            }
+        } else {
+            // If the database is empty, show this message
+            echo "<tr><td colspan='5'>No inquiries found in the database.</td></tr>";
+        }
+
+        // Close the connection
+        $conn->close();
+        ?>
+
+        </tbody>
+    </table>
+</div>
